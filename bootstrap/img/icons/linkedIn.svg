@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.69" height="14" viewBox="0 0 14.69 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3c4042;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1558.31" y="45.5" width="14.69" height="14" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#cf38ef"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="logo_-_LinkedIn" data-name="logo - LinkedIn" class="cls-1" d="M1559.71,45.5h11.89a1.37,1.37,0,0,1,1.4,1.334V58.166a1.37,1.37,0,0,1-1.4,1.333h-11.89a1.37,1.37,0,0,1-1.4-1.333V46.833A1.37,1.37,0,0,1,1559.71,45.5Zm3.32,11.5V51.1h-1.99V57h1.99Zm-1.11-6.524a0.985,0.985,0,1,0-.01,0h0.01ZM1564.61,57h2.12V53.818a1.287,1.287,0,0,1,.07-0.462,1.126,1.126,0,0,1,1.06-.693c0.74,0,.98.523,0.98,1.289V57h2.06V53.733c0-1.752-.95-2.727-2.31-2.727a2.083,2.083,0,0,0-1.87.96h0.01V51.14h-2.12c0.02,0.535,0,5.863,0,5.863h0Z" transform="translate(-1558.31 -45.5)"/>
+</svg>

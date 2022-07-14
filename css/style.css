@@ -1,0 +1,769 @@
+header {
+    width: 100%;
+    background: url("../img/background-images/header-background.png");
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    width: max-content;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header-container {
+    width: 100%;
+    min-height: 150px;
+    background-position: center;
+    background-color: rgb(67, 67, 67);
+    opacity: 0.8;
+}
+
+.header-button:focus {
+    color: rgb(24, 190, 245);
+    border: 2px rgb(24, 190, 245) solid;
+    margin-top: 48px;
+    margin-right: 0px;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header-button {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-right: 4px;
+    padding: 11px 17px 11px 17px;
+}
+
+.header-heading {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 42px;
+    line-height: 65px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 150px;
+    justify-content: center;
+}
+
+span {
+    background-color: rgb(67, 67, 67);
+    opacity: 0.8;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-button:hover {
+    color: rgb(24, 190, 245);
+    border: 2px rgb(24, 190, 245) solid;
+    margin-top: 48px;
+    margin-right: 0px;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu>a {
+    text-decoration: none;
+}
+
+.services {
+    width: 100%;
+    background: url("../img/background-images/blue-background.png");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.services-header {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    color: white;
+    width: max-content;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.services-header::after {
+    content: "";
+    display: block;
+    width: 45px;
+    padding-top: 11px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.services-header>p {
+    padding: 81px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.services-images {
+    margin: 39px 0px 24px 0px;
+    width: max-content;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 81px;
+}
+
+.service-text {
+    color: white;
+    width: max-content;
+    text-align: left;
+}
+
+.service-text>span {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 24px;
+    background-color: transparent;
+    font-weight: bolder;
+    margin-bottom: 19px;
+}
+
+.service-text>p {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 270px;
+}
+
+.portfolio {
+    width: 100%;
+    background: url("../img/background-images/white-background.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio-header {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    color: rgb(67, 67, 67);
+    width: max-content;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.portfolio-header::after {
+    content: "";
+    display: block;
+    width: 45px;
+    padding-top: 11px;
+    border-bottom: 2px solid rgb(67, 67, 67);
+}
+
+.portfolio-header>p {
+    padding: 81px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.portfolio-button {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    color: rgb(67, 67, 67);
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 81px;
+    margin-right: 4px;
+    padding: 11px 17px 11px 17px;
+}
+
+.portfolio-button:hover {
+    color: rgb(24, 190, 245);
+    border: 2px rgb(24, 190, 245) solid;
+    margin-top: 48px;
+    margin-right: 0px;
+}
+
+.portfolio-button:focus {
+    color: rgb(24, 190, 245);
+    border: 2px rgb(24, 190, 245) solid;
+    margin-top: 48px;
+    margin-right: 0px;
+}
+
+.portfolio .flex-container {
+    margin-bottom: 70px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-container {
+    margin-bottom: 50px;
+}
+
+.portfolio-image:hover img {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+.portfolio-image {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+.portfolio-image button {
+    opacity: 0;
+    position: absolute;
+    transition: opacity .3s;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 72px;
+    font: lighter;
+    border: none;
+    color: white;
+    background: transparent;
+    margin: 65px 0px 0px -150px;
+    cursor: pointer;
+}
+
+.portfolio-image:hover button {
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.popup {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+
+.popup-background {
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+
+.popup-image {
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90%;
+}
+
+.popup-image {
+    pointer-events: none;
+}
+
+.default-section {
+    width: 100%;
+    background: url("../img/background-images/default-section-background.png");
+    background-color: rgb(67, 67, 67);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.default-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.default-section-header {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    color: white;
+    width: max-content;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.default-section-header::after {
+    content: "";
+    display: block;
+    width: 45px;
+    padding-top: 11px;
+    border-bottom: 2px solid white;
+}
+
+.default-section-header>p {
+    padding: 81px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.default-section-text {
+    color: white;
+    width: max-content;
+    text-align: left;
+}
+
+.default-section-text>p {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 470px;
+    margin-top: 20px;
+}
+
+.default-section-button {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px rgb(50, 50, 50) solid;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 18px 40px 18px 40px;
+}
+
+.default-section-button:hover {
+    color: rgb(24, 190, 245);
+    border: 3px rgb(24, 190, 245) solid;
+}
+
+.default-section-video {
+    width: max-content;
+    margin: 80px 0px 0px 0px;
+}
+
+iframe {
+    border: 0px solid;
+}
+
+.twitter {
+    width: 100%;
+    background: url("../img/background-images/blue-background.png");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.twitter-header {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    color: white;
+    width: max-content;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.twitter-header::after {
+    content: "";
+    display: block;
+    width: 45px;
+    padding-top: 11px;
+    border-bottom: 2px solid white;
+}
+
+.twitter-header>p {
+    padding: 80px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.twitter img {
+    margin-top: 85px;
+}
+
+.twit {
+    margin-top: 20px;
+    width: 1000px;
+}
+
+.twit>p {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    margin: 0px 0px 0px 0px;
+}
+
+.john-doe {
+    width: 100%;
+    background: url("../img/background-images/john-doe.png");
+    background-color: rgb(67, 67, 67);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.john-doe-header {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    color: white;
+    width: max-content;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.john-doe-header::after {
+    content: "";
+    display: block;
+    width: 45px;
+    padding-top: 11px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.john-doe-header>p {
+    padding: 100px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.john-doe-text {
+    color: white;
+    width: max-content;
+    text-align: left;
+}
+
+.john-doe-text>p {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 500px;
+    margin: 20px 0px 0px 0px;
+}
+
+.john-doe-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 150px;
+    width: 260px;
+}
+
+.john-doe-button {
+    background-color: transparent;
+    border: 3px white solid;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 10px 10px 10px 10px;
+}
+
+.testimonials {
+    width: 100%;
+    background: url("../img/background-images/white-background.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.testimonials-header {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    color: rgb(67, 67, 67);
+    width: max-content;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.testimonials-header::after {
+    content: "";
+    display: block;
+    width: 45px;
+    padding-top: 11px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(67, 67, 67);
+}
+
+.testimonials-header>p {
+    padding: 80px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.testimonials .flex-container {
+    height: 140px;
+}
+
+.hangouts {
+    margin: 0px 0px 0px 0px;
+}
+
+.hangouts>p {
+    font-family: "Bitter", "Arial", sans-serif;
+    font-size: 72px;
+    color: rgb(67, 67, 67);
+    width: max-content;
+    font-weight: bold;
+}
+
+.testimonials-text {
+    margin: 0px 0px 80px 0px;
+}
+
+.testimonials-text>p {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: rgb(67, 67, 67);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    margin: 0px 0px 0px 0px;
+    width: 900px;
+}
+
+.testimonials-text>span {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #4bcaff;
+    background-color: white;
+    margin-top: 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+.swiper {
+    width: 100%;
+    height: 330px;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.contact {
+    width: 100%;
+    background: url("../img/background-images/contact-background.png");
+    background-color: rgb(67, 67, 67);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-header {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 30px;
+    color: white;
+    width: max-content;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.contact-header::after {
+    content: "";
+    display: block;
+    width: 45px;
+    padding-top: 11px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white;
+}
+
+.contact-header>p {
+    padding: 80px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.form-label {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    color: white;
+    width: max-content;
+    font-weight: bold;
+    text-align: left;
+}
+
+.text-field {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    width: max-content;
+}
+
+.text-field>input[type=text] {
+    border-color: white;
+    color: white;
+    border-style: solid;
+    background-color: transparent;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    border: 2px solid;
+    margin-top: 10px;
+    width: 370px;
+    height: 20px;
+    padding: 15px;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type=text]:focus {
+    border-color: white;
+    border: solid;
+}
+
+.text-field>textarea {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    resize: none;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border: 2px solid;
+    width: 1070px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.contact-text {
+    color: white;
+    width: max-content;
+    text-align: left;
+}
+
+.contact-text>p {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: normal;
+    width: 534px;
+    margin: 20px 0px 0px -550px;
+}
+
+.submit-button {
+    margin: 40px 0px 80px 0px;
+}
+
+.submit-button>input[type=submit] {
+    color: white;
+    background-color: #4bcaff;
+    border: 0px;
+    padding: 25px 150px 25px 150px;
+}
+
+.parsley-errors-list{
+    margin: 10px 0px 0px -20px;
+    height: 0px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background: url("../img/background-images/footer-background.png");
+    background-color: rgb(50, 50, 50);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-text {
+    color: rgb(90, 90, 90);
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: max-content;
+    width: 300px;
+    margin: 40px 0px 40px 0px;
+}
+
+.footer-text>p {
+    text-align: right;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer-button {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-right: 2px rgb(90, 90, 90) solid;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0px 17px 0px 17px;
+}
+
+.footer-menu {
+    width: 500px;
+}
+
+.footer-menu>a {
+    text-decoration: none;
+}

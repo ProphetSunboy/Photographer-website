@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.75" height="15" viewBox="0 0 15.75 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3c4042;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1525.09" y="5047" width="15.75" height="15" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="logo_-_dribbble_копия" data-name="logo - dribbble копия" class="cls-1" d="M1532.96,5047a7.509,7.509,0,1,1-7.87,7.5A7.691,7.691,0,0,1,1532.96,5047Zm0,1.5a6.007,6.007,0,1,1-6.29,6A6.151,6.151,0,0,1,1532.96,5048.5Zm-3.14,0s4.72,5.5,5.77,12l1.05-1a24.262,24.262,0,0,0-5.78-11.5Zm7.34,1a13.545,13.545,0,0,1-4.2,2.5,16.83,16.83,0,0,1-7.34,1v1s5.24,1.5,13.11-4Zm-9.44,9.5s3.14-7,12.06-4.5v1s-7.34-2.5-11.01,4Z" transform="translate(-1525.09 -5047)"/>
+</svg>
